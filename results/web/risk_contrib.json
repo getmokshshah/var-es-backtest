@@ -1,0 +1,72 @@
+[
+ {
+  "asset": "SPY",
+  "class": "Equity",
+  "weight": 0.25,
+  "var_share": 0.3553,
+  "es_share": 0.3888
+ },
+ {
+  "asset": "QQQ",
+  "class": "Equity",
+  "weight": 0.1,
+  "var_share": 0.1698,
+  "es_share": 0.1614
+ },
+ {
+  "asset": "IWM",
+  "class": "Equity",
+  "weight": 0.05,
+  "var_share": 0.0875,
+  "es_share": 0.0903
+ },
+ {
+  "asset": "EFA",
+  "class": "Equity",
+  "weight": 0.1,
+  "var_share": 0.1512,
+  "es_share": 0.1605
+ },
+ {
+  "asset": "EEM",
+  "class": "Equity",
+  "weight": 0.05,
+  "var_share": 0.0908,
+  "es_share": 0.0973
+ },
+ {
+  "asset": "VNQ",
+  "class": "Real estate",
+  "weight": 0.05,
+  "var_share": 0.073,
+  "es_share": 0.1008
+ },
+ {
+  "asset": "IEF",
+  "class": "Treasuries",
+  "weight": 0.15,
+  "var_share": 0.0089,
+  "es_share": -0.0141
+ },
+ {
+  "asset": "TLT",
+  "class": "Treasuries",
+  "weight": 0.1,
+  "var_share": 0.0111,
+  "es_share": -0.0208
+ },
+ {
+  "asset": "LQD",
+  "class": "IG credit",
+  "weight": 0.1,
+  "var_share": 0.0278,
+  "es_share": 0.025
+ },
+ {
+  "asset": "GLD",
+  "class": "Gold",
+  "weight": 0.05,
+  "var_share": 0.0246,
+  "es_share": 0.0109
+ }
+]

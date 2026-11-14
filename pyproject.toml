@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "riskmodels"
+version = "0.1.0"
+description = "Out-of-sample VaR and Expected Shortfall forecasts for a multi-asset book, with formal backtests"
+authors = [{ name = "Moksh Shah" }]
+license = { text = "MIT" }
+requires-python = ">=3.11"
+dependencies = ["numpy>=2.0", "scipy>=1.13", "pandas>=2.2", "matplotlib>=3.9", "yfinance>=0.2.50"]
+
+[project.optional-dependencies]
+test = ["pytest>=8", "arch>=7"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
